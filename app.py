@@ -1,6 +1,6 @@
 from flask import Flask
 
-# Include the handler method(s)
+# Include the handler function(s)
 from handlers.pollfish_handler import verify
 
 app = Flask(__name__)
