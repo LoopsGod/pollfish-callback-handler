@@ -22,9 +22,12 @@ def verify_survey():
 ##### Query strings in handler function
 Get the arguments from the Pollfish request query strings. You should have defined those in your application / dashboard. 
 
-Flask has an easy method for getting and parsing query strings: flask.request.args.get()
+Flask has an easy method for getting and parsing query strings: request.args.get()
 ```python
 def verify():
-    argument1 = flask.request.args.get('YOURARGUMENT1')
-    argument2 = flask.request.args.get('YOURARGUMENT2')
+    device_id = request.args.get('device_id')
+    cpa = request.args.get('cpa')
+    request_uuid = request.args.get('request_uuid')
+    timestamp = request.args.get('timestamp')
+    tx_id = request.args.get('tx_id')
 ```
