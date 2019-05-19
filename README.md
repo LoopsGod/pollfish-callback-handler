@@ -33,3 +33,5 @@ def verify():
     timestamp = request.args.get('timestamp')
     tx_id = request.args.get('tx_id')
 ```
+
+For the complete code, check the files : ) 
