@@ -6,7 +6,7 @@ from handlers.pollfish_handler import verify
 app = Flask(__name__)
 
 
-@app.route('/pollfish-webhook')
+@app.route('/webhooks/pollfish-s2s')
 def verify_survey():
     return verify()
 
