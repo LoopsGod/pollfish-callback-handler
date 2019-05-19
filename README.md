@@ -24,6 +24,8 @@ Get the arguments from the Pollfish request query strings. You should have defin
 
 Flask has an easy method for getting and parsing query strings: request.args.get()
 ```python
+from flask import request
+
 def verify():
     device_id = request.args.get('device_id')
     cpa = request.args.get('cpa')
