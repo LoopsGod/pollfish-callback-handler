@@ -3,13 +3,13 @@ Example code for handling and parsing a Pollfish Server 2 Server (S2S) or webhoo
 
 Pollfish Docs: https://www.pollfish.com/docs/s2s
 
-### Setting up
+## Setting up
 In order to get set up, you are going to need to clone this repository. After that, set up a virtualenv and satisfy the requirements by running ``pip install -r requirements.txt``. (please make sure you're in the root directory when you run ``pip install``). Additional explanation can be found on the Flask quickstart and documentation. 
 
-#### Code samples
+### Code samples
 Find some code samples below. 
 
-##### Routing & handling
+#### Routing & handling
 Include handler function.
  
 ```python
@@ -24,7 +24,7 @@ def verify_survey():
     return verify()
 ```
 
-##### Query strings in handler function
+#### Query strings in handler function
 Get the arguments from the Pollfish request query strings. You should have defined those in your application / dashboard. 
 
 Flask has an easy method for getting and parsing query strings: request.args.get()
