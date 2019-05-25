@@ -6,7 +6,7 @@ Pollfish Docs: https://www.pollfish.com/docs/s2s
 ## Setting up
 In order to get set up, you are going to need to clone this repository. After that, set up a virtualenv and satisfy the requirements by running ``pip install -r requirements.txt``. (please make sure you're in the root directory when you run ``pip install``). Additional explanation can be found on the Flask quickstart and documentation. 
 
-### Code samples
+## Code samples
 Find some code samples below. 
 
 #### Routing & handling
