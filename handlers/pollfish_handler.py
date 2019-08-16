@@ -15,4 +15,4 @@ def verify():
     timestamp = request.args.get('timestamp')
     tx_id = request.args.get('tx_id')
 
-# TODO Make handler code here
+    # TODO Make handler code here

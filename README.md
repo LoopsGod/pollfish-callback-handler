@@ -13,7 +13,7 @@ Find some code samples below.
 Include handler function.
  
 ```python
-# Include the handler method(s)
+# Include the handler function(s)
 from handlers.pollfish_handler import verify
 ```
 
@@ -27,7 +27,7 @@ def verify_survey():
 #### Query strings in handler function
 Get the arguments from the Pollfish request query strings. You should have defined those in your application / dashboard. 
 
-Flask has an easy method for getting and parsing query strings: request.args.get()
+Flask has an easy function for getting and parsing query strings: request.args.get()
 ```python
 from flask import request
 
